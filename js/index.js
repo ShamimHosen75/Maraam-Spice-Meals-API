@@ -41,7 +41,7 @@ function getMealList() {
   });
 }
 
-// get recipe of the meal
+// Get recipe of the meal
 function getMealRecipe(e){
   e.preventDefault();
   if(e.target.classList.contains('recipe-btn')){
@@ -52,7 +52,7 @@ function getMealRecipe(e){
   }
 }
 
-// create a modal
+// Create a modal
 function mealRecipeModal(meal){
   console.log(meal);
   meal = meal[0];
